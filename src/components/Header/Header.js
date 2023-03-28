@@ -8,7 +8,7 @@ import DropdownComponents from './DropdownComponents';
 
 function Header() {
   return (
-    <Navbar bg="light" expand="lg" fixed="top">
+    <Navbar bg="light" variant="light" expand="lg" sticky="top" >
       <Container fluid>
         <Navbar.Brand href="#"><img
         src='/images/Logo.png'
